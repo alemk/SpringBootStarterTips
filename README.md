@@ -3,7 +3,7 @@ Tips for starting your Spring Boot project
 Setting up 
 ---------------------------
 1. Select your dependencies
-2. Put in additional dependencies (NekoHTML, Thymeleaf) 
+2. Put in additional dependencies (NekoHTML, Thymeleaf Extras for Spring Security) 
 ```
 <!-- https://mvnrepository.com/artifact/net.sourceforge.nekohtml/nekohtml -->
 <dependency>
@@ -22,6 +22,7 @@ Setting up
 
 3. Setup your application properties file (database connections and URLs, thymeleaf configuration, server timeouts, etc.)
    - Write them all down so you have a checklist! 
+   - Don't forget to add the thymeleaf configuration details to the application.properties file! NEKOHTML won't work without it!
 4. Create your database 
 5. Run your application 
 
